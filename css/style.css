@@ -1,0 +1,37 @@
+.pageslider {
+  width: 200px;
+  overflow: hidden;
+  background: white;
+  border: 1px solid black;
+}
+.pageslider .pages {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.pageslider .pages .page {
+  position: absolute;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  display: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.pageslider .controls p {
+  cursor: pointer;
+  display: block;
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+.pageslider .controls p:first-child {
+  float: left;
+}
+.pageslider .controls p:last-child {
+  float: right;
+}
